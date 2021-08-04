@@ -12,11 +12,13 @@ Incorrectly modified g-codes can be a dangerous thing.
 Be aware of this, be careful and use this software at your own risk.
 
 */
-.gcode_list { margin:0px; padding:0px }
-.gcode_line { display:block; list-style:none; }
+.gcode_list{ }
+
+.gcode_line { list-style-type: decimal-leading-zero; }
 .gcode_M, .gcode_G{ color:#0CC; }
+.gcode_comment{ color:#AAA; }
 
 .gcode_X{ color:#F77; }
-.gcode_Y{ color:#7A7; }
+.gcode_Y, .gcode_A{ color:#7A7; }
 .gcode_Z{ color:#77A; }
 .gcode_E{ color:#F70; }
